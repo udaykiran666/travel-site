@@ -1,2 +1,4 @@
 import '../styles/styles.css'
-alert('hello this is just an test')
+if (module.hot){
+    module.hot.accept()
+}
